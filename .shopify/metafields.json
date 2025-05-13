@@ -1,0 +1,108 @@
+{
+  "article": [
+    {
+      "key": "address",
+      "namespace": "custom",
+      "name": "店舗住所",
+      "description": "",
+      "type": {
+        "name": "multi_line_text_field",
+        "category": "TEXT"
+      }
+    }
+  ],
+  "blog": [],
+  "brand": [],
+  "collection": [
+    {
+      "key": "fv_sp",
+      "namespace": "custom",
+      "name": "メインビュー（SP）",
+      "description": "",
+      "type": {
+        "name": "file_reference",
+        "category": "REFERENCE"
+      }
+    },
+    {
+      "key": "title_sub",
+      "namespace": "custom",
+      "name": "サブタイトル",
+      "description": "",
+      "type": {
+        "name": "single_line_text_field",
+        "category": "TEXT"
+      }
+    }
+  ],
+  "company": [],
+  "company_location": [],
+  "location": [],
+  "market": [],
+  "order": [],
+  "page": [],
+  "product": [
+    {
+      "key": "categories",
+      "namespace": "custom",
+      "name": "カテゴリー",
+      "description": "",
+      "type": {
+        "name": "list.collection_reference",
+        "category": "REFERENCE"
+      }
+    },
+    {
+      "key": "points",
+      "namespace": "custom",
+      "name": "おすすめポイント",
+      "description": "",
+      "type": {
+        "name": "list.metaobject_reference",
+        "category": "REFERENCE"
+      }
+    },
+    {
+      "key": "fragrance",
+      "namespace": "custom",
+      "name": "香り",
+      "description": "",
+      "type": {
+        "name": "multi_line_text_field",
+        "category": "TEXT"
+      }
+    },
+    {
+      "key": "ingredient",
+      "namespace": "custom",
+      "name": "全成分",
+      "description": "",
+      "type": {
+        "name": "multi_line_text_field",
+        "category": "TEXT"
+      }
+    },
+    {
+      "key": "how-to",
+      "namespace": "custom",
+      "name": "使用方法",
+      "description": "",
+      "type": {
+        "name": "multi_line_text_field",
+        "category": "TEXT"
+      }
+    },
+    {
+      "key": "recommend",
+      "namespace": "custom",
+      "name": "おすすめ商品",
+      "description": "",
+      "type": {
+        "name": "collection_reference",
+        "category": "REFERENCE"
+      }
+    }
+  ],
+  "variant": [],
+  "shop": []
+}
