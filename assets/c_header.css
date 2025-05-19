@@ -4,3 +4,14 @@
     align-items: center;
     justify-content: center;
 }
+
+.c_menu-drawer__navigation .menu-drawer__menu {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+@media screen and (max-width: 768px) {
+    .c_header-menu-level-1 {
+        padding: 0;
+    }
+}
