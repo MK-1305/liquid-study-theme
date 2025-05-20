@@ -9,8 +9,8 @@
   <details id="Details-menu-drawer-container" class="menu-drawer-container">
     <summary class="header__icon header__icon--menu header__icon--summary link focus-inset" aria-label="{{ 'sections.header.menu' | t }}">
       <span>
-        {{- 'icon-hamburger.svg' | inline_asset_content -}}
-        {{- 'icon-close.svg' | inline_asset_content -}}
+        {{- 'c_icon-hamburger-open.svg' | inline_asset_content -}}
+        {{- 'c_icon-hamburger-close.svg' | inline_asset_content -}}
       </span>
     </summary>
     <div id="menu-drawer" class="gradient menu-drawer motion-reduce color-{{ section.settings.menu_color_scheme }}">
@@ -133,13 +133,13 @@
                       {{ customer | avatar }}
                     {%- else -%}
                       <span class="svg-wrapper">
-                        {{- 'icon-account.svg' | inline_asset_content -}}
+                        {{- 'c_icon-account.svg' | inline_asset_content -}}
                       </span>
                     {%- endif -%}
                   </account-icon>
                 {%- else -%}
                   <span class="svg-wrapper">
-                    {{- 'icon-account.svg' | inline_asset_content -}}
+                    {{- 'c_icon-account.svg' | inline_asset_content -}}
                   </span>
                 {%- endif -%}
                 {%- liquid
