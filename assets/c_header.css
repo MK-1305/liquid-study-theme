@@ -12,6 +12,7 @@
 
 @media screen and (max-width: 768px) {
     .c_header-menu-level-1 {
-        padding: 0;
+        padding: 0!important;
+        /* importantはpaddingを必ず当てるという指示 */
     }
 }
