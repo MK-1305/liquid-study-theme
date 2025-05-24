@@ -98,6 +98,8 @@
     max-width: calc(218px + 20px * 2);
     padding-inline: 20px;
     margin-inline: auto;
+		justify-content: center;   /* グリッド全体を中央に */
+  	justify-items: center;     /* 各セルの内容を中央に */
   }
   
   .menu-drawer__menu-item--active {
@@ -156,7 +158,7 @@
     left: initial;
     right: 7px;
   }
-	
+
   .menu-drawer__navigation {
     padding: 24px 0;
   }
