@@ -2,7 +2,12 @@
     --font-dmSans-family: "DM Sans", sans-serif;
     --font-bodoniModa-family: "Bodoni Moda", sans-serif;
   }
-  
+
+.c_image {
+    width: 100%;
+    height: auto;
+    vertical-align: bottom;
+  }
   .c_header-menu-title--en {
     font-family: var(--font-bodoniModa-family);
   }
